@@ -18,4 +18,11 @@ util["GetURL"] = function(url)
     end
 end
 
+util["GetPlayer"] = function(playerName)
+    -- placeholder, havent added this yet.
+    if playerName then 
+        return playerName
+    end
+end
+
 return util
