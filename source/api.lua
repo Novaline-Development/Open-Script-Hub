@@ -1,5 +1,5 @@
 local lib = {}
-local util = require("util")
+local util = loadstring(game:HttpGet('https://raw.githubusercontent.com/Novaline-Development/Open-Script-Hub/main/source/util.lua', true))()
 
 local settings = {
 
