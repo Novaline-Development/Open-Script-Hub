@@ -1,4 +1,5 @@
 local util = {}
+local _ver = "0.1"
 
 local bFile = function(file)
     local suc, res = pcall(function() return readfile(file) end)
@@ -23,6 +24,25 @@ util["GetPlayer"] = function(playerName)
     if playerName then 
         return playerName
     end
+end
+
+util["GetPlayerPosition"] = function()
+    local plr = game.Players.LocalPlayer
+    if plr.Character then
+        return plr.Character.HumanoidRootPart.CFrame
+    end
+    return false
+end
+
+util["TeleportTo"] = function(a)
+    local plr = game.Players.LocalPlayer
+    if plr.Character then
+        plr.Character.HumanoidRootPart.CFrame = a;
+    end
+end
+
+util["_version"] = function()
+    return _ver
 end
 
 return util
