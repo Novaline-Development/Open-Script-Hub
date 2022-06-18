@@ -2,7 +2,7 @@ local novaline = loadstring(game:HttpGet('https://raw.githubusercontent.com/Nova
 
 local main = novaline.Init()
 
-main.addScript("Example","This is an example script","blinx","rbxassetid://9940102088",function()
+main.addScript("Example Script","This is an example script","blinx","rbxassetid://9940102088",function()
     print("Example Script")  
 end)
 
