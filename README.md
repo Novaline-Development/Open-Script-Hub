@@ -9,7 +9,15 @@ Novaline's open source script hub, anyone can improve or add things to it!
 5. Wait for approval
 
 # Script example
-`novaline.addButton("Title","Description","Author","ImageID",function() print("hi") end)`
+`novaline.addScript("Title","Description","Author","ImageID",function() print("hi") end)`
 
 # Gui Example
-`novaline.addButton("Title","Description","Author","ImageID",function() print("hi") end)`
+`novaline.addGui("Title","Description","Author","ImageID",function() print("hi") end)`
+
+# Developers
+If you're looking to add your script to the script hub, just make a ticket like before and
+write a piece of code like this:
+`novaline.addScript("Title","Description","Author","ImageID",function() 
+    loadstring('script-link') 
+ end)`
+ 
