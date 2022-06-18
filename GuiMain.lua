@@ -6,10 +6,10 @@ main.addScript("Example Script","This is an example script","blinx","rbxassetid:
     print("Example Script")  
 end)
 
-main.addScript("Example GUI","This is an example GUI","blinx","rbxassetid://9940102088",function()
+main.addGui("Example GUI","This is an example GUI","blinx","rbxassetid://9940102088",function()
     print("Example Gui")  
 end)
 
-main.addScript("Example Verified","This is an example verified script","blinx","rbxassetid://9940102088",function()
+main.addVerified("Example Verified","This is an example verified script","blinx","rbxassetid://9940102088",function()
     print("Example Verified")  
 end)
