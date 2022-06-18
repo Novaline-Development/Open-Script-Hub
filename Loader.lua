@@ -13,3 +13,4 @@ repeat
 until game:IsLoaded()
 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Novaline-Development/Open-Script-Hub/main/GuiMain.lua',true))()
+print("Novaline Hub Loaded.")
