@@ -12,10 +12,4 @@ repeat
     wait()
 until game:IsLoaded()
 
-local script = game:HttpGet('https://raw.githubusercontent.com/Novaline-Development/Open-Script-Hub/main/GuiMain.lua',true)
-
-if script == "404" then
-    warn("Script Not Found!")
-else
-    loadstring(script)
-end
+loadstring(game:HttpGet('https://raw.githubusercontent.com/Novaline-Development/Open-Script-Hub/main/GuiMain.lua',true))()
